@@ -37,9 +37,6 @@
                                             <segment title="x"/>
                                             <segment title="÷"/>
                                         </segments>
-                                        <connections>
-                                            <action selector="didChangeSegment:" destination="BYZ-38-t0r" eventType="valueChanged" id="xMa-aU-4Mx"/>
-                                        </connections>
                                     </segmentedControl>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hz2-rS-bZo">
                                         <rect key="frame" x="0.0" y="207" width="111" height="30"/>
@@ -69,6 +66,7 @@
                     <connections>
                         <outlet property="numTextField1" destination="4Dw-7D-N7v" id="Zta-Wx-gej"/>
                         <outlet property="numTextField2" destination="Ppv-7p-fKQ" id="K88-WQ-u1g"/>
+                        <outlet property="operationSegmentedControl" destination="jIW-8C-OjE" id="H2G-uv-FNt"/>
                         <outlet property="resultLabel" destination="Vvi-8R-jJm" id="OxG-Zw-Mul"/>
                     </connections>
                 </viewController>
